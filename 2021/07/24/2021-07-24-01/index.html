@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>源亜こぶり明朝作成の備忘録 - ぱ～まの雑記</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="ぱ～まの雑記"><meta name="msapplication-TileImage" content="/img/avatar.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="ぱ～まの雑記"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Kindle Oasis&amp;#x2F;Paperwhite用フォント「源亜こぶり明朝」について、その作成の方法を備忘録として残す。 何故フォントを作ろうと思ったのかKindle Oasis&amp;#x2F;Paperwhite組込みのフォントはヒラギノのような見た目をしており、視認性が高いのだが、優秀なフォントであるが故に、長文になるほど文字の主張が強くなり、文章よりも際立ってしまう欠点がある。代替の候補となるフォントはいく"><meta property="og:type" content="blog"><meta property="og:title" content="源亜こぶり明朝作成の備忘録"><meta property="og:url" content="https://permanentwave.github.io/2021/07/24/2021-07-24-01/"><meta property="og:site_name" content="ぱ～まの雑記"><meta property="og:description" content="Kindle Oasis&amp;#x2F;Paperwhite用フォント「源亜こぶり明朝」について、その作成の方法を備忘録として残す。 何故フォントを作ろうと思ったのかKindle Oasis&amp;#x2F;Paperwhite組込みのフォントはヒラギノのような見た目をしており、視認性が高いのだが、優秀なフォントであるが故に、長文になるほど文字の主張が強くなり、文章よりも際立ってしまう欠点がある。代替の候補となるフォントはいく"><meta property="og:locale" content="ja_JP"><meta property="og:image" content="https://permanentwave.github.io/img/og_image.png"><meta property="article:published_time" content="2021-07-24T07:55:18.000Z"><meta property="article:modified_time" content="2021-07-24T12:11:14.814Z"><meta property="article:author" content="ぱ～ま"><meta property="article:tag" content="Kindle"><meta property="article:tag" content="フォント"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://permanentwave.github.io/2021/07/24/2021-07-24-01/"},"headline":"源亜こぶり明朝作成の備忘録","image":["https://permanentwave.github.io/img/og_image.png"],"datePublished":"2021-07-24T07:55:18.000Z","dateModified":"2021-07-24T12:11:14.814Z","author":{"@type":"Person","name":"ぱ～ま"},"publisher":{"@type":"Organization","name":"ぱ～まの雑記","logo":{"@type":"ImageObject","url":"https://permanentwave.github.io/img/avatar.png"}},"description":"Kindle Oasis&#x2F;Paperwhite用フォント「源亜こぶり明朝」について、その作成の方法を備忘録として残す。 何故フォントを作ろうと思ったのかKindle Oasis&#x2F;Paperwhite組込みのフォントはヒラギノのような見た目をしており、視認性が高いのだが、優秀なフォントであるが故に、長文になるほど文字の主張が強くなり、文章よりも際立ってしまう欠点がある。代替の候補となるフォントはいく"}</script><link rel="canonical" href="https://permanentwave.github.io/2021/07/24/2021-07-24-01/"><link rel="icon" href="/img/avatar.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.0.1/styles/monokai-sublime.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=G-2LBYEG14TC" async></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'G-2LBYEG14TC');</script><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/avatar.png" alt="ぱ～まの雑記" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item is-hidden-tablet catalogue" title="カタログ" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="検索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">2021/07/24に投稿</span><span class="level-item">2021/07/24に更新</span><span class="level-item"><a class="link-muted" href="/categories/%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88/">フォント</a></span></div></div><h1 class="title is-3 is-size-4-mobile">源亜こぶり明朝作成の備忘録</h1><div class="content"><p>Kindle Oasis/Paperwhite用フォント「源亜こぶり明朝」について、その作成の方法を備忘録として残す。</p>
+<h1><span id="何故フォントを作ろうと思ったのか">何故フォントを作ろうと思ったのか</span></h1><p>Kindle Oasis/Paperwhite組込みのフォントはヒラギノのような見た目をしており、視認性が高いのだが、優秀なフォントであるが故に、長文になるほど文字の主張が強くなり、文章よりも際立ってしまう欠点がある。<br>代替の候補となるフォントはいくつかあるが、その中の一つに<a target="_blank" rel="noopener" href="https://okoneya.jp/font/knowhow.html">源暎こぶり明朝</a>がある。<br>源暎こぶり明朝は<a target="_blank" rel="noopener" href="https://okoneya.jp/">御琥祢屋</a>様が『〝普通〟であることが特徴の仮名を持つ文芸・縦組み・長文向け本文明朝体』として公開しているフォントである。<br>非常に人気が高く、自主制作等でよく見られるフォントだ。<br>では、なぜそのようなフォントがあるにもかかわらず、わざわざフォントを作るに至ったのか。</p>
+<span id="more"></span>
+<p>源暎こぶり明朝をそのままKindleに適用すると、表示が崩れるからだ。縦書きのアルファベットは固定幅フォントとなり、間がスカスカになって気持ち悪い。<br>おそらくKindleとの相性が悪いのであろうと想像される。<br>文字の形自体は非常に素晴らしくKindle上で使えないのが勿体ないので、なんとかこのグリフをKindle上で再現できないか試行錯誤を行った。  </p>
+<p>以下フォントの作り方に対する説明であるが、興味の無い人は<a target="_blank" rel="noopener" href="https://github.com/PermanentWave/GenA-Koburi-Mincho">ここからダウンロード</a>いただきたい。  </p>
+<h1><span id="目次">目次</span></h1><!-- toc -->
+
+<ul>
+<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
+<li><a href="#1-%E5%9B%9E%E8%BB%A2%E4%BD%93%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%81%AE%E5%89%8A%E9%99%A4">1. 回転体フォントの削除</a></li>
+<li><a href="#2-%E6%A8%99%E6%BA%96%E4%BD%93%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%81%AE%E6%83%85%E5%A0%B1%E8%A8%AD%E5%AE%9A">2. 標準体フォントの情報設定</a></li>
+<li><a href="#3-%E5%A4%AA%E5%AD%97%E4%BD%93%E3%81%AE%E4%BD%9C%E6%88%90">3. 太字体の作成</a></li>
+<li><a href="#4-%E6%96%9C%E4%BD%93%E3%81%AE%E4%BD%9C%E6%88%90">4. 斜体の作成</a></li>
+<li><a href="#%E5%AE%8C%E6%88%90">完成</a></li>
+</ul>
+<!-- tocstop -->
+
+<h1><span id="前提">前提</span></h1><ul>
+<li>自分が趣味プログラマーレベルである点と、表示を司るフォントを触るという性質、アップデートが頻繁にはされないという背景から、極力fontforgeアプリケーション上で操作を行い、プログラミングに頼るのは最低限とする。  </li>
+<li>本内容を応用することで源暎こぶり明朝以外のフォントもKindleに最適化できるが、参考にする際は<b><u>ライセンスを必ず確認し、ライセンスから逸脱しないフォントを使用すること。</u></b>  </li>
+<li>Windows 10、fontforge(20th Anniversary Edition)、cygwin(X, fontforge, python)を使用。  </li>
+</ul>
+<h1><span id="1-回転体フォントの削除">1. 回転体フォントの削除</span></h1><p>源暎こぶり明朝には時計回りに90度傾けたグリフが存在するが、90度傾いたアルファベットを使用すると固定幅となるようである。<br>まずは90度傾いたフォントを削除する。<br>具体的には</p>
+<ul>
+<li>[16638, 0x40fe, U+????, cid08720, (半角スペースの90度回転体)]<br>～ [16918, 0x4216, U+????, cid09147, (半濁音記号の90度回転体)]</li>
+<li>[17398, 0x43f6. U+????, cid12870, (€の90度回転体)]<br>～ [17429, 0x4415, U+????, cid12934, (aの90度回転体)]</li>
+</ul>
+<p>ここまで出来たら.sfd形式で保存する。</p>
+<h1><span id="2-標準体フォントの情報設定">2. 標準体フォントの情報設定</span></h1><p>エレメント &gt; フォント情報から、最低限次のように設定する。</p>
+<ul>
+<li>[PS Name]タブ<ul>
+<li>ファミリー名: アルファベットで付けたいフォント名(ウェイトなし)</li>
+<li>フォント名: ファミリー名からスペースを削除し、ウェイト(Regular)を追記</li>
+<li>表示用の名前: ファミリー名にウェイト(Regular)を追記</li>
+<li>ウェイト: Regular</li>
+<li>著作権: 自分の著作権を追記</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>[一般情報]タブ<ul>
+<li>縦書きメトリックが存在: チェックされていることを確認</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>[OS/2]タブ<ul>
+<li>ベンダID: 適当なアルファベット4文字</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>[TTF名]タブ<ul>
+<li>著作権(日本語): 自分の著作権を追記</li>
+<li>ファミリー(日本語): 日本語で付けたいフォント名(ウェイトなし)</li>
+<li>スタイル(サブファミリー)(日本語): Regular</li>
+<li>フルネーム(日本語): 日本語ファミリー名にウェイト(Regular)を追記</li>
+<li>製造元, デザイナー, 説明(日本語/英語): 適当に修正</li>
+<li>ベンダのURL(英語): 適当に修正</li>
+<li>著作権, ファミリー, スタイル(サブファミリー), フルネーム(英語): [PS Name]タブと同じ内容になっていることを確認</li>
+</ul>
+</li>
+</ul>
+<p>ここまで来たら再度保存。</p>
+<h1><span id="3-太字体の作成">3. 太字体の作成</span></h1><p>以下のコードをフォントと同じ場所に置き、CygwinのX-Windowから実行する。</p>
+<figure class="highlight python"><figcaption><span>bold.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -*- coding:utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> os <span class="keyword">import</span> getenv</span><br><span class="line"><span class="keyword">from</span> os.path <span class="keyword">import</span> splitext</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> fontforge</span><br><span class="line"></span><br><span class="line">stroke_width = <span class="number">16.5</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Bold</span>(<span class="params">in_file</span>):</span></span><br><span class="line">    font = fontforge.<span class="built_in">open</span>(in_file)</span><br><span class="line"></span><br><span class="line">    font.selection.<span class="built_in">all</span>()</span><br><span class="line">    <span class="keyword">for</span> glyph <span class="keyword">in</span> <span class="built_in">list</span>(font.selection.byGlyphs):</span><br><span class="line">        <span class="keyword">if</span> glyph.altuni != <span class="literal">None</span>:</span><br><span class="line">            _change_weight(glyph, stroke_width / <span class="built_in">len</span>(glyph.altuni))</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            _change_weight(glyph, stroke_width)</span><br><span class="line">    font.removeOverlap()</span><br><span class="line"></span><br><span class="line">    font.save(<span class="string">f&quot;[Font Name]-Bold.sfd&quot;</span>)</span><br><span class="line"></span><br><span class="line">    font.close()</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">_change_weight</span>(<span class="params">glyph, num</span>):</span></span><br><span class="line">    glyph.changeWeight(num, <span class="string">&quot;auto&quot;</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="string">&quot;auto&quot;</span>, <span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">Bold(<span class="string">&quot;[Font Name]-Regular.sfd&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>ここでは エレメント &gt; スタイル &gt; ウェイトを変更 と同じ機能を用いて太字体を作成している。(エレメント &gt; 輪郭を太らせる でも太字体を作成できるが、設定パラメータが多いため今回はウェイト変更とした。)<br>ここでpythonによる変形を用いているのは、fontforge上で行うと文字によって太さがバラバラになるためである。<br>各グリフにはAlternate Unicodeと呼ばれるものが設定されている場合があり、例えば一つのグリフに対し複数の文字を設定する、等の用途だと思われる。このAlternate Unicodeが設定されていると、文字を太くする操作時に、このAlternate Unicodeが設定されている回数分文字を太くする操作がかかるため、グリフによって文字の太さが変わってしまう。(他の変形ではAlternate Unicodeが設定されている数によらず操作される)<br>この仕様を回避するために、ターゲットの太さをAlternate Unicodeの数で割り、それをAlternate Unicodeの回数分行うことでターゲットの太さを実現している。<br>なお、stroke_widthは太すぎても細すぎても文字が潰れてしまう。ここで設定している16.5という数字は試行錯誤で見つけ出した。</p>
+<p>好みで以下のグリフをRegularの物に置き換える</p>
+<ul>
+<li>[830, 0x33e, U+24EB, uni24EB, (黒丸11)]<br>～ [839, 0x347, U+24F4, uni24F4, (黒丸20)]</li>
+<li>[850, 0x352, U+24FF, uni24FF, (黒丸0)]</li>
+<li>[1039, 0x40f, U+2776, uni2776, (黒丸1)]<br>～ [1048, 0x418, U+277F, uni277F, (黒丸10)]</li>
+<li>[15365, 0x3c05, U+1F150, u1F150, (黒丸A)]<br>～ [15416, 0x3c38, U+1F189, u1F189, (黒四角Z)]</li>
+</ul>
+<p>ここまで終わったら、生成されたsfdファイルを開き、エレメント &gt; フォント情報から、最低限次のように設定変更する。</p>
+<ul>
+<li>[PS Name]タブ<ul>
+<li>フォント名: RegularをBoldに変更</li>
+<li>表示用の名前: RegularをBoldに変更</li>
+<li>ウェイト: Bold</li>
+<li><b><u>ファミリー名は変更しない</u></b></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>[OS/2]タブ<ul>
+<li>ウェイトクラス: 700 Bold</li>
+<li>Style Map: RegularをBoldに変更</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>[TTF名]タブ<ul>
+<li>スタイル(サブファミリー)(日本語): Bold</li>
+<li>フルネーム(日本語): RegularをBoldに変更</li>
+<li><b><u>ファミリー名(日本語)は変更しない</u></b></li>
+</ul>
+</li>
+</ul>
+<h1><span id="4-斜体の作成">4. 斜体の作成</span></h1><p>斜体は標準体、太字体を変形して作成する。<br>横書きフォントの斜字体は 編集 &gt; 全て選択 をし、 エレメント &gt; 変形 &gt; 変形 から[選択領域の中心][傾き, 13, clockwise]を設定し、チェックを全て外してOKする。<br>縦書きフォントの斜字体は 編集 &gt; 全て選択 をし、 エレメント &gt; 変形 &gt; 変形 から[選択領域の中心][回転, 90, withershins][傾き, 13, clockwise][回転, 90, clockwise]を設定し、チェックを全て外してOKする。<br>縦書きフォントの斜字体に限り、以下のグリフを横書き斜字体に置き換える。</p>
+<ul>
+<li>[0, 0x0, U+00A0, uni00A0, (半角スペース)] <br> ～ [556, 0x22c, U+215E, seveneighths, 7/8]</li>
+<li>[15846, 0x3de6. U+????, cid00230, (ゼロスラッシュ)] <br> ～ [15941, 0x3e45, U+????, cid00390, `]</li>
+<li>[16150, 0x3f16. U+????, cid00599, (A Umlaut)] <br> ～ [16185, 0x3f39, U+????, cid00673, ”]</li>
+</ul>
+<p>ここまで終わったら、エレメント &gt; フォント情報から、最低限次のように設定変更する。</p>
+<ul>
+<li>[PS Name]タブ<ul>
+<li>フォント名: RegularをOblique、BoldをBoldObliqueに変更</li>
+<li>表示用の名前: RegularをOblique、BoldをBoldObliqueに変更</li>
+<li>ウェイト: Oblique、またはBoldOblique</li>
+<li><b><u>ファミリー名は変更しない</u></b></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>[OS/2]タブ<ul>
+<li>Style Map: RegularをItalic、BoldをBold Italicに変更</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>[TTF名]タブ<ul>
+<li>スタイル(サブファミリー)(日本語): Oblique、またはBoldOblique</li>
+<li>フルネーム(日本語): RegularをOblique、BoldをBoldObliqueに変更</li>
+<li><b><u>ファミリー名(日本語)は変更しない</u></b></li>
+</ul>
+</li>
+</ul>
+<p>ここまでで作業完了。<br>このあと縦書き斜体と横書き斜体を結合し、Lookupからvert、vrt2を設定出来れば斜体フォントは一つで良かったのだが、機械的に作る方法を考えるのが面倒になったので、これで終了。  </p>
+<h1><span id="完成">完成</span></h1><p>ダウンロードは<a target="_blank" rel="noopener" href="https://github.com/PermanentWave/GenA-Koburi-Mincho">ここ</a>から。</p>
+</div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/Kindle/">Kindle</a><a class="link-muted mr-2" rel="tag" href="/tags/%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88/">フォント</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2021/06/16/2021-06-16-01/"><span class="level-item">Hexo Icarusのテーマの変更箇所の備忘録</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">コメント</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://permanentwave.github.io/2021/07/24/2021-07-24-01/';
+            this.page.identifier = '2021/07/24/2021-07-24-01/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'permanentwave-github-io' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="/img/avatar.svg" alt="ぱ～ま"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">ぱ～ま</p><p class="is-size-6 is-block">PermanentWave</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Japan</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">投稿</p><a href="/archives"><p class="title">5</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">カテゴリ</p><a href="/categories"><p class="title">4</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">タグ</p><a href="/tags"><p class="title">11</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://twitter.com/O_PermanentWave" target="_blank" rel="noopener">フォローする</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com/O_PermanentWave/"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Bandcamp" href="https://bandcamp.com/PermanentWave/"><i class="fab fa-bandcamp"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/PermanentWave/"><i class="fab fa-github"></i></a></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">カテゴリ</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/PC/"><span class="level-start"><span class="level-item">PC</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E3%82%B2%E3%83%BC%E3%83%A0/"><span class="level-start"><span class="level-item">ゲーム</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88/"><span class="level-start"><span class="level-item">フォント</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E6%96%99%E7%90%86/"><span class="level-start"><span class="level-item">料理</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最近の記事</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-07-24T07:55:18.000Z">2021/07/24</time></p><p class="title"><a href="/2021/07/24/2021-07-24-01/">源亜こぶり明朝作成の備忘録</a></p><p class="categories"><a href="/categories/%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88/">フォント</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-06-16T11:32:11.000Z">2021/06/16</time></p><p class="title"><a href="/2021/06/16/2021-06-16-01/">Hexo Icarusのテーマの変更箇所の備忘録</a></p><p class="categories"><a href="/categories/PC/">PC</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-06-15T09:00:00.000Z">2021/06/15</time></p><p class="title"><a href="/2021/06/15/2021-06-15-01/">Dynamix 最強キャラに関する考察</a></p><p class="categories"><a href="/categories/%E3%82%B2%E3%83%BC%E3%83%A0/">ゲーム</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-06-08T12:09:31.000Z">2021/06/08</time></p><p class="title"><a href="/2021/06/08/2021-06-08-01/">FFXにおけるダーク召喚獣の正体についての考察</a></p><p class="categories"><a href="/categories/%E3%82%B2%E3%83%BC%E3%83%A0/">ゲーム</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-03-24T11:00:00.000Z">2021/03/24</time></p><p class="title"><a href="/2021/03/24/2021-03-24-01/">麻婆豆腐 レシピ</a></p><p class="categories"><a href="/categories/%E6%96%99%E7%90%86/">料理</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">アーカイブ</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2021/07/"><span class="level-start"><span class="level-item">2021 / 07</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/06/"><span class="level-start"><span class="level-item">2021 / 06</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/03/"><span class="level-start"><span class="level-item">2021 / 03</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">タグ</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/Dynamix/"><span class="tag">Dynamix</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/FINAL-FANTASY/"><span class="tag">FINAL FANTASY</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/FINAL-FANTASY-X/"><span class="tag">FINAL FANTASY X</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Github-Pages/"><span class="tag">Github Pages</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Hexo/"><span class="tag">Hexo</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Hexo-Icarus/"><span class="tag">Hexo Icarus</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Kindle/"><span class="tag">Kindle</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/RPG/"><span class="tag">RPG</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88/"><span class="tag">フォント</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E3%83%AA%E3%82%BA%E3%83%A0%E3%82%B2%E3%83%BC%E3%83%A0/"><span class="tag">リズムゲーム</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/"><span class="tag">麻婆豆腐</span><span class="tag">1</span></a></div></div></div></div></div><div class="column-right-shadow is-hidden-widescreen is-sticky"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">カタログ</h3><ul class="menu-list"><li><a class="level is-mobile" href="#"><span class="level-left"><span class="level-item">1</span><span class="level-item">何故フォントを作ろうと思ったのか</span></span></a></li><li><a class="level is-mobile" href="#"><span class="level-left"><span class="level-item">2</span><span class="level-item">目次</span></span></a></li><li><a class="level is-mobile" href="#"><span class="level-left"><span class="level-item">3</span><span class="level-item">前提</span></span></a></li><li><a class="level is-mobile" href="#"><span class="level-left"><span class="level-item">4</span><span class="level-item">1. 回転体フォントの削除</span></span></a></li><li><a class="level is-mobile" href="#"><span class="level-left"><span class="level-item">5</span><span class="level-item">2. 標準体フォントの情報設定</span></span></a></li><li><a class="level is-mobile" href="#"><span class="level-left"><span class="level-item">6</span><span class="level-item">3. 太字体の作成</span></span></a></li><li><a class="level is-mobile" href="#"><span class="level-left"><span class="level-item">7</span><span class="level-item">4. 斜体の作成</span></span></a></li><li><a class="level is-mobile" href="#"><span class="level-left"><span class="level-item">8</span><span class="level-item">完成</span></span></a></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/avatar.png" alt="ぱ～まの雑記" height="28"></a><p class="is-size-7"><span>&copy; 2021 ぱ～ま</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ja");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="トップに戻る" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "このウェブサイトはあなたの経験を改善するためにCookieを使用しています。",
+          dismiss: "了解しました",
+          allow: "Cookiesを許可する",
+          deny: "拒否する",
+          link: "もっと詳しく知る",
+          policy: "Cookieポリシー",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="何かを入力してください..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"何かを入力してください...","untitled":"(無題)","posts":"投稿","pages":"ページ","categories":"カテゴリ","tags":"タグ"});
+        });</script></body></html>
